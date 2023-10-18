@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation {
+    a {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    
+  }
+#section1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: rgba(0,121,138,1);
+    color: white;
+}
+.get1{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    .h1h1{
+        font-size: 100px;
+        
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        width: 35%;
+        height: 50px;
+        background-color: rgb(247, 52, 52);
+        color: white;
+    }
+    button:hover{
+        background-color: rgb(196, 26, 26);
+    }
+}
+.section2{
+    margin-top: 40px;
+    padding-top: 40px;
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+    #h2h2{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 50px 20px 5px 0px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+.our-services-card{
+    .ddd{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+}
+.our-card{
+    background-color: rgba(0,121,138,1);
+    text-align: center;
+    height: 450px;
+    margin-bottom: 20px;
+    color: white;
+    width: 80%;
+    margin-bottom: 40px;
+
+    i{
+        font-size: 70px;
+        padding-top: 40px;
+    }
+    p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ipsum{
+        color: black;
+        font-size: 40px;
+    }
+}
+.featured{
+    width: 100%;
+    height: 235px;
+    background-color: rgba(0,121,138,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    
+    h1{
+        font-size: 70px;
+    }
+}
+.section4{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+    .ddd{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    #h2h2{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 50px 20px 5px 0px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+    .plan{
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .free{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(182, 182, 182);
+        color: rgb(100, 100, 100);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 39px;
+    }
+    .only{
+        width: 100%;
+        height: 125px;
+        background-color: rgb(1, 96, 1);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 60px;
+            font-weight: 600;
+        }
+    }
+    .read{
+        width: 100%;
+        height: 125px;
+        background-color: rgb(182, 182, 182);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .more{
+            width: 100%;
+            button{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: red;
+            }
+
+        }
+    }
+}
+.section5{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0,121,138,1);
+    margin-top: 40px;
+  .row{
+    
+    
+    .money3{
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        .money1{
+            font-size: 70px;
+            font-weight: 600;
+        }
+        .money2{
+            
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+}
+  
+}
+.section6{
+    #h2h2{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 50px 20px 5px 0px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+    .our-services-card{
+        .ddd{
+            font-size: 35px;
+            font-weight: 500;
+        }
+    }
+    .row{
+        margin-top: 40px;
+    }
+    .Submit{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(55, 177, 243);
+    }
+    .Submit:hover{
+        background-color: rgb(98, 98, 232);
+    }
+    .hhh{
+        input{
+            width: 80%;
+            height: 70px;
+            margin-top: 10px;
+        }
+    }
+    .jjj{
+        input{
+            width: 30%;
+            height: 30px;
+        }
+    }
+}
+.end{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 40px;
+    p{
+        margin-top: 10px;
+    }
+}
